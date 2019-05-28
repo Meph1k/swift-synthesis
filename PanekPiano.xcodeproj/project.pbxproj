@@ -12,6 +12,7 @@
 		96D6712C229D158900814C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D6712A229D158900814C06 /* Main.storyboard */; };
 		96D6712E229D158A00814C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D6712D229D158A00814C06 /* Assets.xcassets */; };
 		96D67131229D158A00814C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D6712F229D158A00814C06 /* LaunchScreen.storyboard */; };
+		96D6713A229D163700814C06 /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 96D67139229D163700814C06 /* sound */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		96D6712D229D158A00814C06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96D67130229D158A00814C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96D67132229D158A00814C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D67139229D163700814C06 /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sound; path = ../../../Downloads/SwiftPiano/sound; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				96D67126229D158900814C06 /* AppDelegate.swift */,
 				96D67128229D158900814C06 /* ViewController.swift */,
 				96D6712A229D158900814C06 /* Main.storyboard */,
+				96D67139229D163700814C06 /* sound */,
 				96D6712D229D158A00814C06 /* Assets.xcassets */,
 				96D6712F229D158A00814C06 /* LaunchScreen.storyboard */,
 				96D67132229D158A00814C06 /* Info.plist */,
@@ -124,6 +127,7 @@
 			files = (
 				96D67131229D158A00814C06 /* LaunchScreen.storyboard in Resources */,
 				96D6712E229D158A00814C06 /* Assets.xcassets in Resources */,
+				96D6713A229D163700814C06 /* sound in Resources */,
 				96D6712C229D158900814C06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
