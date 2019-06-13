@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		962F585122B2DB04005FE75E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 962F585022B2DB04005FE75E /* Podfile */; };
 		96D67127229D158900814C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D67126229D158900814C06 /* AppDelegate.swift */; };
 		96D67129229D158900814C06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D67128229D158900814C06 /* ViewController.swift */; };
 		96D6712C229D158900814C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D6712A229D158900814C06 /* Main.storyboard */; };
 		96D6712E229D158A00814C06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D6712D229D158A00814C06 /* Assets.xcassets */; };
 		96D67131229D158A00814C06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D6712F229D158A00814C06 /* LaunchScreen.storyboard */; };
 		96D6713A229D163700814C06 /* sound in Resources */ = {isa = PBXBuildFile; fileRef = 96D67139229D163700814C06 /* sound */; };
+		EC61BA18EFDF82F03CE8EEEC /* libPods-PanekPiano.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E97B742DA6DBC7C3E9CFF82 /* libPods-PanekPiano.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0412CDDC980F9CD7CD9FECCF /* Pods-PanekPiano.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanekPiano.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PanekPiano/Pods-PanekPiano.debug.xcconfig"; sourceTree = "<group>"; };
+		1E97B742DA6DBC7C3E9CFF82 /* libPods-PanekPiano.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PanekPiano.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A4298591BED5519FFC7EE2B /* Pods-PanekPiano.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanekPiano.release.xcconfig"; path = "Pods/Target Support Files/Pods-PanekPiano/Pods-PanekPiano.release.xcconfig"; sourceTree = "<group>"; };
+		962F585022B2DB04005FE75E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		96D67123229D158900814C06 /* PanekPiano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanekPiano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D67126229D158900814C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96D67128229D158900814C06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC61BA18EFDF82F03CE8EEEC /* libPods-PanekPiano.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C4E211FED41795E0A58FE63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0412CDDC980F9CD7CD9FECCF /* Pods-PanekPiano.debug.xcconfig */,
+				6A4298591BED5519FFC7EE2B /* Pods-PanekPiano.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71AF2F33DF7473023EC8D2CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E97B742DA6DBC7C3E9CFF82 /* libPods-PanekPiano.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96D6711A229D158900814C06 = {
 			isa = PBXGroup;
 			children = (
+				962F585022B2DB04005FE75E /* Podfile */,
 				96D67125229D158900814C06 /* PanekPiano */,
 				96D67124229D158900814C06 /* Products */,
+				0C4E211FED41795E0A58FE63 /* Pods */,
+				71AF2F33DF7473023EC8D2CF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,6 +101,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96D67135229D158A00814C06 /* Build configuration list for PBXNativeTarget "PanekPiano" */;
 			buildPhases = (
+				C04E9EF9606FBADA78DDBCAE /* [CP] Check Pods Manifest.lock */,
 				96D6711F229D158900814C06 /* Sources */,
 				96D67120229D158900814C06 /* Frameworks */,
 				96D67121229D158900814C06 /* Resources */,
@@ -125,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				962F585122B2DB04005FE75E /* Podfile in Resources */,
 				96D67131229D158A00814C06 /* LaunchScreen.storyboard in Resources */,
 				96D6712E229D158A00814C06 /* Assets.xcassets in Resources */,
 				96D6713A229D163700814C06 /* sound in Resources */,
@@ -133,6 +162,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C04E9EF9606FBADA78DDBCAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PanekPiano-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96D6711F229D158900814C06 /* Sources */ = {
@@ -284,6 +338,7 @@
 		};
 		96D67136229D158A00814C06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0412CDDC980F9CD7CD9FECCF /* Pods-PanekPiano.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +357,7 @@
 		};
 		96D67137229D158A00814C06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4298591BED5519FFC7EE2B /* Pods-PanekPiano.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
