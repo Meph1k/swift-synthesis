@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PanekPiano
 //
-//  Created by Piotr Suwała on 28/05/2019.
+//  Created by Panek pindol
 //  Copyright © 2019 Panek Team. All rights reserved.
 //
 
